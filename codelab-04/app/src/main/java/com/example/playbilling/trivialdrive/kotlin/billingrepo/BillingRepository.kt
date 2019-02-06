@@ -104,7 +104,7 @@ class BillingRepository private constructor(private val application: Application
         when (responseCode) {
             BillingClient.BillingResponse.OK -> {
                 // will handle server verification, consumables, and updating the local cache
-                purchases?.apply { processPurchases(this.toSet()) }
+                purchases?.apply { processPurchases(toSet()) }
             }
             BillingClient.BillingResponse.ITEM_ALREADY_OWNED -> {
                 //item already owned? call queryPurchasesAsync to verify and process all such items

@@ -28,12 +28,12 @@ object Security {
     private val KEY_FACTORY_ALGORITHM = "RSA"
     private val SIGNATURE_ALGORITHM = "SHA1withRSA"
 
-    val BASE_64_ENCODED_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEaiCq7os9cmF" +
-            "+i564+pIOiSOVZa/LRzu0K79Dg6wKWjnJ1PkHAa4ZOJ81KrxyFk3q3UiJ3lNsTCdW216+KKdKp+YCOFLs" +
-            "sN+4FKjFBqY9lJbm6uuxZ9cPugMOTVFrVlmreYyhIY4jysfo4+LeyEmB7D20X7M+7diCRBEIsOY9lA2ne" +
-            "OtD6j0BR4rhLGR3xjN0LGrhCCdbw42+eIkc/awbY7FypLMJjbAmEnNBe1tlOxxX6ZgspwAlY8XjnX832l" +
-            "xxHdnuJKSPGtYCQLSt/LYc/go90/kc/U+oPtQy/KgCiQEcKeIL1a6AB294JDogkHuqRIeXIu1n4sAfzG" +
-            "cshrJQIDAQAB"
+    val BASE_64_ENCODED_PUBLIC_KEY="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAosfEirKDcXdAWuI" +
+            "r4FVGvejeoCcJWKzSXIKnXpgzieP3dhQNEI1/fzxD8uAZuN8s3IhyFpazbftvS19v6ekHXr+cSFn1woCE4" +
+            "S4nvVGjiWGGgFjazXrE7yRH7bVUwKRkSMZy/d4OVCWQ78Kqcuz0aCnTHzKsG95ZXnXqh6M4ZZlmFN+I8Uz" +
+            "+w8/0K7Akr1ust28gkzzvQzKLJ+Nwka81ZKxARRQRD8pZac3jjrIzUm6RtPEMWqDxsLo9ZRWdkuyXM3RmX" +
+            "TOkPUiuvliWa7CdNgldP3Uz+qDPlyWJ+oU/REa+1z4E0IPykgQ6LioAVdwIDUHS3oqm5Oq+VQD1w7ASIwI" +
+            "DAQAB"
 
     /**
      * Verifies that the data was signed with the given signature
